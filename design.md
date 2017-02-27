@@ -109,7 +109,7 @@ and store/process these messages further.
 
 The following diagram depicts this process:
 
-![Message Flow](QueueManagerView.png)
+![Message Flow](Pictures/QueueManagerView.png)
 
 ### Multi-channel MQ on SHARES
 
@@ -194,7 +194,7 @@ Notes:
 ## Event Types ##
 Following Event streams are expected out of this effort from SHARES.
 
-Category | Event Name    | SHARES Representation | SHARES Event Type  | Update Type
+Category   | Event Name    | SHARES Representation   | SHARES Event Type  | Update Type
 ---------|---------------|-----------------------|--------------------------------------------
 Flight   | Detail        | Flat Files            | Signal Event       | Delta
 Flight   | Control set   | DF Record             | Data Event         | Delta
